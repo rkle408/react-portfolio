@@ -1,10 +1,15 @@
 import React from "react";
+import Footer from "./components/Footer";
 
 // Components
 
 function App() {
   return <div>
-    <h1>Welcome to Rosa's Portfolio</h1>
+
+    <main>
+      Hello
+    </main>
+    <Footer />
   </div>
 }
 
