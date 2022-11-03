@@ -18,7 +18,7 @@ function Footer() {
 
     return (
         <footer>
-            <div style={{fontSize: "25px", backgroundColor: "#353535", padding: "30px", display: "flex", flexDirection: "row", justifyContent: "center", gap: "15px"}}>
+            <div style={{fontSize: "25px", backgroundColor: "#353535", padding: "30px", display: "flex", flexDirection: "row", justifyContent: "center", gap: "30px"}}>
                 {icons.map(icon => {
                     return <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer" style={{color: "#d9d9d9"}}><i className={icon.name}></i></a> 
                 })}

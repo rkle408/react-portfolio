@@ -13,6 +13,19 @@
     margin: 70px;
     font-size: 23px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.githubRepo {
+  color: #3c6e71;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.githubRepo:hover {
+  color: #fff;
+  background-color: #3c6e71;
 }
 
 .textbox {
@@ -28,8 +41,8 @@
 }
 
 .portfolioPics {
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   border: 2px solid #000;
   border-radius: 20px;
 }

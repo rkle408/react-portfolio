@@ -17,7 +17,7 @@ function PortfolioPage (){
                 <div>
                     <p>As a group, we developed an application that allows you to post things you want to give away, and get items, all for free! We utilized Node, Bootstrap framework, along with jQuery.</p>
                     <br/>
-                    <figure id="gif-board-img">
+                    <figure>
                         <a href="https://intense-brook-23504.herokuapp.com/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={dibs} alt="Screenshot - homepage of our marketplace" /></a>
                     </figure>
                     <a className="githubRepo" href="https://github.com/rkle408/dibs" target="_blank" rel="noreferrer">Dibs GitHub Repo</a>
