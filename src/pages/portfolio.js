@@ -16,8 +16,9 @@ function PortfolioPage (){
                     <figure id="gif-board-img">
                         <a href="https://intense-brook-23504.herokuapp.com/" target="_blank" rel="noreferrer"><img src="./assets/images/screencapture11.png" alt="Screenshot - homepage of our marketplace" /></a>
                     </figure>
+                    <a href="https://github.com/rkle408/dibs" target="_blank" rel="noreferrer">Dibs GitHub Repo</a>
                 </div>
-            </article>
+            </article><br/>
 
             <article >
                 <div class="message-header" id="gif-board">
@@ -29,8 +30,9 @@ function PortfolioPage (){
                     <figure id="gif-board-img">
                     <a href="https://rkle408.github.io/gif-board/" target="_blank" rel="noreferrer"><img src="./assets/images/gif-board-screenshot2.png" alt="Screenshot of home page of random word and gif generator application" /></a>
                     </figure>
+                    <a href="https://github.com/rkle408/gif-board" target="_blank" rel="noreferrer">Gif Board GitHub Repo</a>
                 </div>
-            </article>
+            </article><br/>
 
             <article>
                 <div class="message-header">
@@ -41,8 +43,9 @@ function PortfolioPage (){
                     <figure id="work-day-scheduler-img">
                             <a href="https://rkle408.github.io/work-day-scheduler/" target="_blank" rel="noreferrer"><img src="./assets/images/work-day-scheduler-screenshot.png" alt="Screenshot of work day scheduler/planner application" /></a>
                     </figure>
+                    <a href="https://github.com/rkle408/work-day-scheduler" target="_blank" rel="noreferrer">Work Day Scheduler GitHub Repo</a>
                 </div>
-            </article>
+            </article><br/>
 
             <article>
                 <div>
@@ -53,8 +56,9 @@ function PortfolioPage (){
                     <figure class="image is-5by3" id="password-generator-img">
                     <a href="https://rkle408.github.io/password-generator/" target="_blank" rel="noreferrer"><img src="./assets/images/password-generator-screenshot.png" alt="Screenshot of random password generator"/></a>
                     </figure>
+                    <a href="https://github.com/rkle408/password-generator" target="_blank" rel="noreferrer">Password Generator GitHub Repo</a>
                 </div>
-            </article>
+            </article><br/>
 
         </section>
     )
