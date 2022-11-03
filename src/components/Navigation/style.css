@@ -1,0 +1,17 @@
+.nav-container {
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    row-gap: 5px;
+}
+
+.active {
+    color: mediumseagreen;
+}
+
+.active:hover {
+    background-color: lightcyan;
+}
