@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function ResumePage (){
 
@@ -7,15 +8,16 @@ function ResumePage (){
       }
 
     return (
-        <section>
-            <h1>Check out my resume!</h1>
-            <button onClick={downloadFile} target="_blank">Download Rosa's Resume</button>
+        <section className="paragraph">
+            <h1 className="H1">Check out my resume!</h1>
+            <button className="resumeBtn" onClick={downloadFile} target="_blank">Download Rosa's Resume</button>
             <div>
                 <h2>Skills</h2>
                 <ul>
                     <li>Front-end technologies: HTML, CSS, JavaScript, React</li>
                     <li>Back-end technologies: JavaScript, jQuery, Node.js, Express, MySQL, MongoDB</li>
                     <li>Database design and analysis</li>
+                    <li>GraphQL</li>
                     <li>DevOps: Git</li>
                     <li>JSON, RESTful APIs </li>
                 </ul>

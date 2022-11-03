@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./style.css";
 
 function ContactPage (){
     const [formState, setFormState] = useState({
@@ -46,20 +47,20 @@ function ContactPage (){
     }
 
     return (
-        <section>
-            <h1>Contact Me!</h1>
+        <section className="paragraph">
+            <h1 className="H1">Contact Me!</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name: </label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+                    <label htmlFor="name">Name: </label><br/>
+                    <input className="textbox" type="text" name="Name" defaultValue={name} onBlur={handleChange}/>
                 </div>
                 <div>
-                    <label htmlFor="email">Email: </label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+                    <label htmlFor="email">Email: </label><br/>
+                    <input className="textbox" type="email" name="Email" defaultValue={email} onBlur={handleChange}/>
                 </div>
                 <div>
-                    <label htmlFor="message">Message: </label>
-                    <textarea name="message" rows="4" defaultValue={message} onBlur={handleChange}/>
+                    <label htmlFor="message">Message: </label><br/>
+                    <textarea className="textbox" name="Message" rows="4" defaultValue={message} onBlur={handleChange}/>
                 </div>
                 {errorMessage && (
                     <div>
