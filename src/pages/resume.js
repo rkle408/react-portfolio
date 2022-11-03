@@ -7,9 +7,20 @@ function ResumePage (){
       }
 
     return (
-        <div>
-             <button onClick={downloadFile} target="_blank">Download Resume</button>
-        </div>
+        <section>
+            <h1>Check out my resume!</h1>
+            <button onClick={downloadFile} target="_blank">Download Rosa's Resume</button>
+            <div>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Front-end technologies: HTML, CSS, JavaScript, React</li>
+                    <li>Back-end technologies: JavaScript, jQuery, Node.js, Express, MySQL, MongoDB</li>
+                    <li>Database design and analysis</li>
+                    <li>DevOps: Git</li>
+                    <li>JSON, RESTful APIs </li>
+                </ul>
+            </div>
+        </section>
     )
 };
 
