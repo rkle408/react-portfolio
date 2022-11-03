@@ -3,6 +3,12 @@
     font-family: 'Courgette', cursive;
 }
 
+.border {
+  padding: 40px;
+  border: 2px solid #a8dadc;
+  border-radius: 20px;
+}
+
 .paragraph {
     margin: 70px;
     font-size: 23px;
