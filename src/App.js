@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Nav from "./components/Navigation";
 import Footer from "./components/Footer";
 
 // Components
 
 function App() {
-  return <div>
+  return (
+    <div>
+      <Header>
+        <Nav />
+      </Header>
+      <main>
 
-    <main>
-      Hello
-    </main>
-    <Footer />
-  </div>
+      </main>
+      <Footer />
+    </div>
+  )
 }
 
 export default App;
