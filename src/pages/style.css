@@ -6,10 +6,13 @@
 .paragraph {
     margin: 70px;
     font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .textbox {
     width: 500px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .resumeBtn {
@@ -58,7 +61,8 @@
 }
 
 @media (min-width: 768px) {
-    .resumeBtn {
+    .resumeBtn,
+    .textbox {
         padding: 12px 50px;
-  }
+    }
 }

@@ -1,7 +1,9 @@
 .h1 {
     text-align: left;
-    background-color: #353535;
+    background-color: #84a59d;
     padding: 20px;
+    margin: 0px;
     color: #fefcfb;
     font-family: 'Courgette', cursive;
+    font-size: 50px;
 }

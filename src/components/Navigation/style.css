@@ -1,20 +1,24 @@
 .nav-container {
-    display: grid;
+    display: flex;
     align-content: center;
     justify-content: space-around;
     list-style-type: none;
     cursor: pointer;
     text-align: center;
     row-gap: 5px;
-    background-color: #3c6e71;
-    margin: 3px;
+    background-color: #f5cac3;
+    margin: 0px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
 }
 
 .active {
-    color: #ffffff;
+    display: block;
+    color: #84a59d;
 }
 
 .active:hover {
-    background-color: #d9d9d9;
+    background-color: #f28482;
     border-radius: 5px;
 }
