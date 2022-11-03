@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import textEditor from "../assets/text-editor.png"
+import social from "../assets/social-network.png"
 import dibs from "../assets/dibs-homepage.png";
 import gifBoard from "../assets/gif-board-screenshot2.png";
 import workDay from "../assets/work-day-scheduler-screenshot.png";
@@ -9,6 +11,34 @@ function PortfolioPage (){
     return (
         <section className="paragraph">
             <h1 className="H1">Rosa's Portfolio</h1>
+
+            <article className="border">
+                <div id="text-editor">
+                    <h2>Project "text-editor"</h2>
+                </div>
+                <div>
+                    <p></p>
+                    <br/>
+                    <figure>
+                        <a href="https://fast-fortress-26712.herokuapp.com/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={textEditor} alt="Screenshot - of text editor" /></a>
+                    </figure>
+                    <a className="githubRepo" href="https://github.com/rkle408/text-editor" target="_blank" rel="noreferrer">Text Editor GitHub Repo</a>
+                </div>
+            </article><br/>
+
+            <article className="border">
+                <div id="social-network">
+                    <h2>Project "social-network"</h2>
+                </div>
+                <div>
+                    <p></p>
+                    <br/>
+                    <figure>
+                        <a href="https://drive.google.com/file/d/12Hlu7Vr1VGJL4caXN7dLxcMC8EyeDa0K/view" target="_blank" rel="noreferrer"><img className="portfolioPics" src={social} alt="Screenshot - homepage of our marketplace" /></a>
+                    </figure>
+                    <a className="githubRepo" href="https://github.com/rkle408/social-network" target="_blank" rel="noreferrer">Social Network GitHub Repo</a>
+                </div>
+            </article><br/>
 
             <article className="border">
                 <div id="dibs">
