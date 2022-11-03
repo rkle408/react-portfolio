@@ -20,7 +20,7 @@ function ContactPage (){
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!errorMessage) {
-            // alert("Submitting form");
+            alert("Thank you for contacting me! I'll get back to your message as soon as I can!");
             console.log("submit form", formState);
         }
     }
