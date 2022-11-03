@@ -10,7 +10,7 @@ As an up-and-coming web developer, I need to showcase my skills. What better way
 
 -[Usage](#usage)
 
--[Screenshots](#screenshots)
+-[Screenshot](#screenshot)
 
 -[Resources](#resources)
 
@@ -33,8 +33,8 @@ Open Integrated Terminal, then run command:
 npm run start
 ```
 
-### Screenshots
-
+## Screenshot
+![screencapture1](https://user-images.githubusercontent.com/108099192/199676962-483f90e4-96ce-478e-8eb6-62a36d7b8e4f.png)
 
 ## Resources
 
