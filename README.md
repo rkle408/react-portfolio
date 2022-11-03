@@ -38,7 +38,8 @@ npm run start
 
 ## Resources
 
-- Hoang, Andrew. "Module 20 Challenge". <https://zoom.us/rec/share/dtSF7T-X37xZkwB-3pogjro-x02bmAOORwcBU7nqTWME_ssd3CoGSV7HlPiqla2L.BeDNCdN19KgI0QFa> Date accessed: November 1, 2022.
+- Hoang, Andrew. "Module 20 Challenge". <https://zoom.us/rec/share/dtSF7T-X37xZkwB-3pogjro-x02bmAOORwcBU7nqTWME_ssd3CoGSV7HlPiqla2L.BeDNCdN19KgI0QFa>. Date accessed: November 1, 2022.
+- <b>Coolors</b>. <https://coolors.co/>. Date accessed: November 2, 2022.
 
 ## License
 

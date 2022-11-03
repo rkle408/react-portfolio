@@ -7,13 +7,27 @@ function PortfolioPage (){
             <h1 className="H1">Rosa's Portfolio</h1>
 
             <article>
-                <div id="gif-board">
+                <div id="dibs">
                     <h2>Project "dibs"</h2>
                 </div>
-                <div class="message-body">
+                <div>
                     <p>As a group, we developed an application that allows you to post things you want to give away, and get items, all for free! We utilized Node, Bootstrap framework, along with jQuery.</p>
+                    <br/>
                     <figure id="gif-board-img">
                         <a href="https://intense-brook-23504.herokuapp.com/" target="_blank" rel="noreferrer"><img src="./assets/images/screencapture11.png" alt="Screenshot - homepage of our marketplace" /></a>
+                    </figure>
+                </div>
+            </article>
+
+            <article >
+                <div class="message-header" id="gif-board">
+                    <h2 >Project "gif-board"</h2>
+                </div>
+                <div>
+                    <p>In my first project working with a team, together, we developed an application that required the use of two APIs. We decided to bring a little joy to your day by making a random word generator (or you could select your own word!) that also generates an associated gif! Warning: it may not be completely kid-friendly! We utilized the Bulma framework, along with jQuery.</p>
+                    <br/>
+                    <figure id="gif-board-img">
+                    <a href="https://rkle408.github.io/gif-board/" target="_blank" rel="noreferrer"><img src="./assets/images/gif-board-screenshot2.png" alt="Screenshot of home page of random word and gif generator application" /></a>
                     </figure>
                 </div>
             </article>
