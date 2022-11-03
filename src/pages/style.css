@@ -21,6 +21,11 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.headshot {
+  width: 15%;
+  height: 15%;
+}
+
 .resumeBtn {
   appearance: button;
   background-color: #000;
