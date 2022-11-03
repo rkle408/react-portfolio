@@ -6,7 +6,8 @@
     cursor: pointer;
     text-align: center;
     row-gap: 5px;
-    background-color: #d9d9d9;
+    background-color: #3c6e71;
+    margin: 3px;
 }
 
 .active {
@@ -14,5 +15,6 @@
 }
 
 .active:hover {
-    background-color: #3c6e71;
+    background-color: #d9d9d9;
+    border-radius: 5px;
 }
