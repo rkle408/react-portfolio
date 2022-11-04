@@ -8,7 +8,7 @@ function ResumePage (){
       }
 
     return (
-        <section className="paragraph">
+        <section className="left">
             <h1 className="H1">Check out my resume!</h1>
             <button className="resumeBtn" onClick={downloadFile} target="_blank">Download Rosa's Resume</button>
             <div>
@@ -19,7 +19,8 @@ function ResumePage (){
                     <li>Database design and analysis</li>
                     <li>GraphQL</li>
                     <li>DevOps: Git</li>
-                    <li>JSON, RESTful APIs </li>
+                    <li>JSON, RESTful APIs</li>
+                    <li>Local storage, session storage</li>
                 </ul>
             </div>
         </section>
