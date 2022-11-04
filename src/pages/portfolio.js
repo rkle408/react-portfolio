@@ -13,39 +13,11 @@ function PortfolioPage (){
             <h1 className="H1">Rosa's Portfolio</h1>
 
             <article className="border">
-                <div id="text-editor">
-                    <h2>Project "text-editor"</h2>
-                </div>
-                <div>
-                    <p></p>
-                    <br/>
-                    <figure>
-                        <a href="https://fast-fortress-26712.herokuapp.com/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={textEditor} alt="Screenshot - of text editor" /></a>
-                    </figure>
-                    <a className="githubRepo" href="https://github.com/rkle408/text-editor" target="_blank" rel="noreferrer">Text Editor GitHub Repo</a>
-                </div>
-            </article><br/>
-
-            <article className="border">
-                <div id="social-network">
-                    <h2>Project "social-network"</h2>
-                </div>
-                <div>
-                    <p></p>
-                    <br/>
-                    <figure>
-                        <a href="https://drive.google.com/file/d/12Hlu7Vr1VGJL4caXN7dLxcMC8EyeDa0K/view" target="_blank" rel="noreferrer"><img className="portfolioPics" src={social} alt="Screenshot - homepage of our marketplace" /></a>
-                    </figure>
-                    <a className="githubRepo" href="https://github.com/rkle408/social-network" target="_blank" rel="noreferrer">Social Network GitHub Repo</a>
-                </div>
-            </article><br/>
-
-            <article className="border">
                 <div id="dibs">
                     <h2>Project "dibs"</h2>
                 </div>
                 <div>
-                    <p>As a group, we developed an application that allows you to post things you want to give away, and get items, all for free! We utilized Node, Bootstrap framework, along with jQuery.</p>
+                    <p>We developed an application that allows you to post things you want to give away, and get items, all for free! We utilized Node, Bootstrap framework, along with jQuery.</p>
                     <br/>
                     <figure>
                         <a href="https://intense-brook-23504.herokuapp.com/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={dibs} alt="Screenshot - homepage of our marketplace" /></a>
@@ -65,6 +37,34 @@ function PortfolioPage (){
                     <a href="https://rkle408.github.io/gif-board/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={gifBoard} alt="Screenshot of home page of random word and gif generator application" /></a>
                     </figure>
                     <a className="githubRepo" href="https://github.com/rkle408/gif-board" target="_blank" rel="noreferrer">Gif Board GitHub Repo</a>
+                </div>
+            </article><br/>
+
+            <article className="border">
+                <div id="text-editor">
+                    <h2>Project "text-editor"</h2>
+                </div>
+                <div>
+                    <p>Do you need a Progressive Web App to edit your text? Well, look no further, we have just what you're looking for here! This will also highlight your code depending on the syntax type!</p>
+                    <br/>
+                    <figure>
+                        <a href="https://fast-fortress-26712.herokuapp.com/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={textEditor} alt="Screenshot - of text editor" /></a>
+                    </figure>
+                    <a className="githubRepo" href="https://github.com/rkle408/text-editor" target="_blank" rel="noreferrer">Text Editor GitHub Repo</a>
+                </div>
+            </article><br/>
+
+            <article className="border">
+                <div id="social-network">
+                    <h2>Project "social-network"</h2>
+                </div>
+                <div>
+                    <p>I have utilized Node, Express, and Mongoose to create a back-end for a social network, where you can implement CRUD to users, friend lists, posts, and replies.</p>
+                    <br/>
+                    <figure>
+                        <a href="https://drive.google.com/file/d/12Hlu7Vr1VGJL4caXN7dLxcMC8EyeDa0K/view" target="_blank" rel="noreferrer"><img className="portfolioPics" src={social} alt="Screenshot - homepage of our marketplace" /></a>
+                    </figure>
+                    <a className="githubRepo" href="https://github.com/rkle408/social-network" target="_blank" rel="noreferrer">Social Network GitHub Repo</a>
                 </div>
             </article><br/>
 
