@@ -18,7 +18,7 @@ Through the process of building my own portfolio, I finally understood the seaml
 
 -[Deployed](#deployed-website)
 
-
+-[Contact](#contact-me)
 
 ## Installation
 
