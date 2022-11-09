@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f99dfc73.css",
+    "main.js": "/react-portfolio/static/js/main.8305e381.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/dibs-homepage.png": "/react-portfolio/static/media/dibs-homepage.bdc965646f06cede76d6.png",
+    "static/media/rosa-le-crop.png": "/react-portfolio/static/media/rosa-le-crop.ed60eacf4843a68e25b0.png",
+    "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.4cd0fe16aa95c25d60c2.png",
+    "static/media/gif-board-screenshot2.png": "/react-portfolio/static/media/gif-board-screenshot2.ba8a57e9582d1f41cd4d.png",
+    "static/media/social-network.png": "/react-portfolio/static/media/social-network.91ccbaf4c6699b6ac446.png",
+    "static/media/work-day-scheduler-screenshot.png": "/react-portfolio/static/media/work-day-scheduler-screenshot.8dfea368aabae4ecec02.png",
+    "static/media/password-generator-screenshot.png": "/react-portfolio/static/media/password-generator-screenshot.7c95f10127ba8d905352.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f99dfc73.css.map": "/react-portfolio/static/css/main.f99dfc73.css.map",
+    "main.8305e381.js.map": "/react-portfolio/static/js/main.8305e381.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f99dfc73.css",
+    "static/js/main.8305e381.js"
+  ]
+}
