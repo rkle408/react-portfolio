@@ -13,6 +13,7 @@ function ContactPage (){
     const { name, email, message } = formState;
 
     const validateEmail = (email) => {
+        // eslint-disable-next-line
         const re = /.+\@.+\..+/;
         return re.test(String(email).toLowerCase())
     };
