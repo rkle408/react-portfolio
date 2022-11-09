@@ -34,7 +34,19 @@ npm run start
 ```
 
 ## Screenshot
-![screencapture1](https://user-images.githubusercontent.com/108099192/199676962-483f90e4-96ce-478e-8eb6-62a36d7b8e4f.png)
+
+1) About Me:
+![screencapture1](https://user-images.githubusercontent.com/108099192/200945610-5e5a2159-cbbd-41b6-af89-523da9a9ed6e.png)
+
+2) Project Page:
+![screencapture2](https://user-images.githubusercontent.com/108099192/200945616-26a17b5f-c721-4460-bb99-8a980aea7d1f.png)
+
+3) Contact Page:
+![screencapture3](https://user-images.githubusercontent.com/108099192/200945615-b7a459d5-d279-4d5f-8559-978c2be325f4.png)
+
+4) Resume:
+![screencapture4](https://user-images.githubusercontent.com/108099192/200945613-d0879652-36a1-4527-862b-6cbbf83a1205.png)
+
 
 ## Resources
 
