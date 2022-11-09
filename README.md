@@ -18,6 +18,8 @@ Through the process of building my own portfolio, I finally understood the seaml
 
 -[Deployed](#deployed-website)
 
+
+
 ## Installation
 
 Open Integrated Terminal at BOTH level of "Develop" and "server", then run command:
@@ -63,3 +65,8 @@ This project is licensed under the terms of the MIT license.
 ## Deployed Website
 
 <https://rkle408.github.io/react-portfolio/>
+
+## Contact Me
+
+Rosa Le
+<rkle408@gmail.com>
