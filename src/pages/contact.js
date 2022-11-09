@@ -47,6 +47,17 @@ function ContactPage (){
         }
     }
 
+    // const body = {
+    //     senderName: formState.name,
+    //     senderEmail: formState.email,
+    //     receiverEmail: "rkle408@gmail.com",
+    //     message: formState.message,
+    //   };
+  
+    //   axios
+    //     .post("https://www.michaelscharf.dev/email", body)
+    //     .then((res) => {
+
     return (
         <section className="paragraph">
             <h1 className="H1">Contact Me!</h1>

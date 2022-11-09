@@ -2,7 +2,7 @@
 
 As an up-and-coming web developer, I need to showcase my skills. What better way than to upgrade my HTML, CSS, vanilla JS portfolio to a React portfolio?! This interface will make it more pleasing for the user, and hopefully, that'll mean more job opportunities for me!
 
-
+Through the process of building my own portfolio, I finally understood the seamlessness that is a React application. Coding was also more seamless, as I no longer had to worry about balancing the header, navbar, and footer with new components.
 
 ## Table of Contents
 
@@ -40,6 +40,7 @@ npm run start
 
 - Hoang, Andrew. "Module 20 Challenge". <https://zoom.us/rec/share/dtSF7T-X37xZkwB-3pogjro-x02bmAOORwcBU7nqTWME_ssd3CoGSV7HlPiqla2L.BeDNCdN19KgI0QFa>. Date accessed: November 1, 2022.
 - <b>Coolors</b>. <https://coolors.co/>. Date accessed: November 2, 2022.
+- "Deployment". <b>Create React App</b>. <https://create-react-app.dev/docs/deployment/#github-pages> Date accessed: November 8, 2022.
 
 ## License
 
@@ -49,4 +50,4 @@ This project is licensed under the terms of the MIT license.
 
 ## Deployed Website
 
-<https://react-portfolio-rkle408.vercel.app/>
+<https://rkle408.github.io/react-portfolio/>
