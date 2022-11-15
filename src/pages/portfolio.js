@@ -6,11 +6,26 @@ import dibs from "../assets/dibs-homepage.png";
 import gifBoard from "../assets/gif-board-screenshot2.png";
 import workDay from "../assets/work-day-scheduler-screenshot.png";
 import passwordGen from "../assets/password-generator-screenshot.png";
+import happyPanda from "../assets/happypanda.png";
 
 function PortfolioPage (){
     return (
         <section className="paragraph">
             <h1 className="H1">Rosa's Portfolio</h1>
+
+            <article className="border">
+                <div id="dibs">
+                    <h2>Project "Happy Panda"</h2>
+                </div>
+                <div>
+                    <p>With the recent world events, it's been difficult for children to navigate life and social emotional learning. This app is the start of a tool to help young kids I idenify and rectify negative feelings. We utilized MongoDB/Mongoose, Express, React, Node, GraphQL, JSON Web Tokens (JWT), bcrypt, Bulma, and Howler.</p>
+                    <br/>
+                    <figure>
+                        <a href="https://safe-peak-97961.herokuapp.com/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={happyPanda} alt="Screenshot - homepage of Happy Panda" /></a>
+                    </figure>
+                    <a className="githubRepo" href="https://github.com/rkle408/happy-panda" target="_blank" rel="noreferrer">Happy Panda GitHub Repo</a>
+                </div>
+            </article><br/>
 
             <article className="border">
                 <div id="dibs">
