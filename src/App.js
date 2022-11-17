@@ -26,7 +26,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div>
+    <div style={{backgroundColor: "#eff2f5"}}>
       <Header />
       <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage} />
       <main>
