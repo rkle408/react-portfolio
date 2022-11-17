@@ -52,10 +52,11 @@ npm run start
 
 ## Resources
 
-- Hoang, Andrew. "Module 20 Challenge". <https://zoom.us/rec/share/dtSF7T-X37xZkwB-3pogjro-x02bmAOORwcBU7nqTWME_ssd3CoGSV7HlPiqla2L.BeDNCdN19KgI0QFa>. Date accessed: November 1, 2022.
-- <b>Coolors</b>. <https://coolors.co/>. Date accessed: November 2, 2022.
-- "Deployment". <b>Create React App</b>. <https://create-react-app.dev/docs/deployment/#github-pages> Date accessed: November 8, 2022.
-- "Rose - Free Icons" <b>Flaticon</b>. <https://www.flaticon.com/free-icon/rose_4139427>. Accessed: Thursday, September 15, 2022.
+- Hoang, Andrew. "Module 20 Challenge". <https://zoom.us/rec/share/dtSF7T-X37xZkwB-3pogjro-x02bmAOORwcBU7nqTWME_ssd3CoGSV7HlPiqla2L.BeDNCdN19KgI0QFa>. Accessed: November 1, 2022.
+- <b>Coolors</b>. <https://coolors.co/>. Accessed: November 2, 2022.
+- "Deployment". <b>Create React App</b>. <https://create-react-app.dev/docs/deployment/#github-pages>. Accessed: November 8, 2022.
+- "Rose - Free Icons" <b>Flaticon</b>. <https://www.flaticon.com/free-icon/rose_4139427>. Accessed: September 15, 2022.
+- "Send Email With React (No Backend Required)". <b>ZinoTrust Academy</b>. <https://www.youtube.com/watch?v=I4DKr1JLC50>. Accessed: November 16, 2022.
 
 ## License
 

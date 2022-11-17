@@ -9,6 +9,9 @@ function ContactPage (){
         message: ""
     });
 
+    // Use this hook to get values of the input fields
+    const form = useRef();
+
     const [errorMessage, setErrorMessage] = useState("");
 
     const { name, email, message } = formState;
@@ -51,19 +54,6 @@ function ContactPage (){
             }
         }
     }
-
-    const form = useRef()
-
-    // const body = {
-    //     senderName: formState.name,
-    //     senderEmail: formState.email,
-    //     receiverEmail: "rkle408@gmail.com",
-    //     message: formState.message,
-    //   };
-  
-    //   axios
-    //     .post("https://www.michaelscharf.dev/email", body)
-    //     .then((res) => {
 
     return (
         <section className="paragraph">
