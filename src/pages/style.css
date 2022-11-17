@@ -102,8 +102,17 @@
 }
 
 @media (min-width: 768px) {
-    .resumeBtn,
-    .textbox {
-        padding: 12px 50px;
+  .resumeBtn,
+  .textbox,
+  #contact-form {
+        padding: 12px 40px;
     }
+}
+
+@media screen and (max-width: 992px) {
+  .resumeBtn,
+  .textbox,
+  #contact-form  {
+    width: auto;
+  }
 }
