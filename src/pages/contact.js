@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./style.css";
+import emailjs from '@emailjs/browser';
 
 function ContactPage (){
     const [formState, setFormState] = useState({
@@ -20,10 +21,14 @@ function ContactPage (){
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        if (!errorMessage) {
-            alert("Thank you for contacting me! I'll get back to your message as soon as I can!");
-            console.log("submit form", formState);
-        }
+
+        emailjs.sendForm('service_heekyx5', 'template_ghqnr2j', form.current, 'D7YNoXK_l3ceF6YMp')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        event.target.reset();
     }
 
     const handleChange = (event) => {
@@ -47,6 +52,8 @@ function ContactPage (){
         }
     }
 
+    const form = useRef()
+
     // const body = {
     //     senderName: formState.name,
     //     senderEmail: formState.email,
@@ -61,7 +68,7 @@ function ContactPage (){
     return (
         <section className="paragraph">
             <h1 className="H1">Contact Me!</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form ref={form} id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name: </label><br/>
                     <input className="textbox" type="text" name="Name" defaultValue={name} onBlur={handleChange}/>
