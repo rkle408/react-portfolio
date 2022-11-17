@@ -76,7 +76,7 @@ function ContactPage (){
                         <p>{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button className="submitBtn" type="submit">Submit</button>
             </form>
         </section>
     )

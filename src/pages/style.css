@@ -56,7 +56,8 @@
   border-radius: 20px;
 }
 
-.resumeBtn {
+.resumeBtn,
+.submitBtn {
   appearance: button;
   background-color: #000;
   background-image: none;
@@ -83,36 +84,89 @@
   white-space: nowrap;
 }
 
-.resumeBtn:focus {
+.resumeBtn:focus,
+.submitBtn:focus {
   text-decoration: none;
 }
 
-.resumeBtn:hover {
+.resumeBtn:hover,
+.submitBtn:hover {
   text-decoration: none;
 }
 
-.resumeBtn:active {
+.resumeBtn:active,
+.submitBtn:active {
   box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
   outline: 0;
 }
 
-.resumeBtn:not([disabled]):active {
+.resumeBtn:not([disabled]):active,
+.submitBtn:not([disabled]):active {
   box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {
   .resumeBtn,
+  .submitBtn,
   .textbox,
   #contact-form {
-        padding: 12px 40px;
+        padding: 5px 40px;
     }
+  
+    .headshot,
+    .portfolioPics {
+      width: 40%;
+      height: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+  .resumeBtn,
+  .submitBtn,
+  .textbox,
+  #contact-form  {
+    width: auto;
+  }
+
+  .headshot {
+    width: 30%;
+    height: 30%;
+  }
+
+  .portfolioPics {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .resumeBtn,
+  .submitBtn,
   .textbox,
   #contact-form  {
     width: auto;
+  }
+
+  .headshot {
+    width: 30%;
+    height: 30%;
+  }
+
+  .portfolioPics {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .headshot {
+    width: 50%;
+    height: 50%;
+  }
+
+  .portfolioPics {
+    width: 100%;
+    height: 100%;
   }
 }
