@@ -4,14 +4,14 @@ import "./style.css";
 function ResumePage (){
 
     const downloadFile = () => {
-        window.location.href = "https://drive.google.com/file/d/1iGb2NVHFH9Hh0f7vhJjpgX_lCB50XB8W/view?usp=sharing"
+        window.location.href = "https://drive.google.com/file/d/1eROFBMSMIqEYPcPISVzpTbK6Vr3AFNhs/view?usp=sharing"
       }
 
     return (
         <section className="resume">
 
             <h1 className="H1">Check out my resume!</h1>
-            <button className="resumeBtn" onClick={downloadFile} target="_blank">Download Rosa's Resume</button>
+            <button className="resumeBtn" onClick={downloadFile} target="_blank">View and download Rosa's Resume</button>
             <div>
                 <h2>Skills</h2>
                 <ul>
