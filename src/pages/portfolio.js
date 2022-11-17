@@ -10,7 +10,8 @@ import happyPanda from "../assets/happypanda.png";
 
 function PortfolioPage (){
     return (
-        <section className="paragraph">
+        <section className="portfolio">
+            <div className="paragraph">
             <h1 className="H1">Rosa's Portfolio</h1>
 
             <article className="border">
@@ -108,7 +109,7 @@ function PortfolioPage (){
                     <a className="githubRepo" href="https://github.com/rkle408/password-generator" target="_blank" rel="noreferrer">Password Generator GitHub Repo</a>
                 </div>
             </article><br/>
-
+            </div>
         </section>
     )
 };

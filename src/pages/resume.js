@@ -8,7 +8,8 @@ function ResumePage (){
       }
 
     return (
-        <section className="left">
+        <section className="resume">
+
             <h1 className="H1">Check out my resume!</h1>
             <button className="resumeBtn" onClick={downloadFile} target="_blank">Download Rosa's Resume</button>
             <div>

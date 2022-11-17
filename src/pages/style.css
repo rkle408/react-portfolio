@@ -9,19 +9,22 @@
   border-radius: 20px;
 }
 
-.left {
+.about,
+.resume {
   margin: 70px;
   font-size: 23px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   list-style-position: inside;
 }
 
-.paragraph {
-    margin: 70px;
+.contact,
+.portfolio {
+    margin: 50px;
     font-size: 23px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     list-style-position: inside;
+    line-height: 140%;
 }
 
 .githubRepo {
@@ -175,10 +178,24 @@
   }
 }
 
-article {
+article,
+.contact {
   margin-top: 25px;
   font-size: 21px;
   text-align: center;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+}
+
+.resume,
+.about {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: left;
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */

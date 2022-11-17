@@ -56,7 +56,7 @@ function ContactPage (){
     }
 
     return (
-        <section className="paragraph">
+        <section className="contact">
             <h1 className="H1">Contact Me!</h1>
             <form ref={form} id="contact-form" onSubmit={handleSubmit}>
                 <div>
