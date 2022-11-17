@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.47adf5d3.css",
-    "main.js": "/static/js/main.549460a0.js",
+    "main.css": "/static/css/main.ad615bfe.css",
+    "main.js": "/static/js/main.1026bb76.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/dibs-homepage.png": "/static/media/dibs-homepage.bdc965646f06cede76d6.png",
     "static/media/rosa-le-crop.png": "/static/media/rosa-le-crop.ed60eacf4843a68e25b0.png",
@@ -12,12 +12,12 @@
     "static/media/work-day-scheduler-screenshot.png": "/static/media/work-day-scheduler-screenshot.8dfea368aabae4ecec02.png",
     "static/media/password-generator-screenshot.png": "/static/media/password-generator-screenshot.7c95f10127ba8d905352.png",
     "index.html": "/index.html",
-    "main.47adf5d3.css.map": "/static/css/main.47adf5d3.css.map",
-    "main.549460a0.js.map": "/static/js/main.549460a0.js.map",
+    "main.ad615bfe.css.map": "/static/css/main.ad615bfe.css.map",
+    "main.1026bb76.js.map": "/static/js/main.1026bb76.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47adf5d3.css",
-    "static/js/main.549460a0.js"
+    "static/css/main.ad615bfe.css",
+    "static/js/main.1026bb76.js"
   ]
 }
