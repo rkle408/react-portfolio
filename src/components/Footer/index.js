@@ -1,5 +1,21 @@
 import React from "react";
 
+const styles = {
+    footer: {
+        fontSize: "25px",
+        backgroundColor: "#353535",
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        gap: "30px",
+        bottom:"0",
+        width: "100%",
+        position: "fixed",
+        paddingTop: "0.5rem",
+        paddingBottom: "0.5rem"
+    }
+}
+
 function Footer() {
     const icons = [
         {
@@ -18,7 +34,7 @@ function Footer() {
 
     return (
         <footer>
-            <div style={{fontSize: "25px", backgroundColor: "#353535", display: "flex", flexDirection: "row", justifyContent: "center", gap: "30px", position: "relative", bottom:"0", width: "100%"}}>
+            <div style={styles.footer}>
                 {icons.map(icon => {
                     return <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer" style={{color: "#d9d9d9"}}><i className={icon.name}></i></a> 
                 })}
