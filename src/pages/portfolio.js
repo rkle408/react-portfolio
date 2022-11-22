@@ -15,7 +15,7 @@ function PortfolioPage (){
             <h1 className="H1">Rosa's Portfolio</h1>
 
             <article className="border">
-                <div id="dibs">
+                <div id="happy-panda">
                     <h2>Project "Happy Panda"</h2>
                 </div>
                 <div>
