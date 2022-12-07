@@ -26,7 +26,7 @@ function PortfolioPage (){
                     <figure>
                         <a href="https://smile-line.vercel.app/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={smileLine} alt="Screenshot - Dental terms page of Smile Line" /></a>
                     </figure>
-                    <a className="githubRepo" href="https://github.com/rkle408/smile-line" target="_blank" rel="noreferrer">Happy Panda GitHub Repo</a>
+                    <a className="githubRepo" href="https://github.com/rkle408/smile-line" target="_blank" rel="noreferrer">SmileLine GitHub Repo</a>
                 </div>
             </article><br/>
 
