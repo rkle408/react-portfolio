@@ -7,12 +7,28 @@ import gifBoard from "../assets/gif-board-screenshot2.png";
 import workDay from "../assets/work-day-scheduler-screenshot.png";
 import passwordGen from "../assets/password-generator-screenshot.png";
 import happyPanda from "../assets/happypanda.png";
+import smileLine from "../assets/smileline.png";
 
 function PortfolioPage (){
     return (
         <section className="portfolio">
             <div className="paragraph">
             <h1 className="H1">Rosa's Portfolio</h1>
+
+            <article className="border">
+                <div id="smile-line">
+                    <h2>Project "Smile Line"</h2>
+                </div>
+                <div>
+                    <p>As dental patients, there are many questions we have, and just not enough time while we're at the dental office. Here is a resource to help guide you!
+                    <br/> We utilized React, Node, Bootstrap.</p>
+                    <br/>
+                    <figure>
+                        <a href="https://smile-line.vercel.app/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={smileLine} alt="Screenshot - Dental terms page of Smile Line" /></a>
+                    </figure>
+                    <a className="githubRepo" href="https://github.com/rkle408/smile-line" target="_blank" rel="noreferrer">Happy Panda GitHub Repo</a>
+                </div>
+            </article><br/>
 
             <article className="border">
                 <div id="happy-panda">
