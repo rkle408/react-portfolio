@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Nav from "./components/Navigation";
 import Footer from "./components/Footer";
 import Page from "./Page";
-import { ChakraProvider } from '@chakra-ui/react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 
@@ -27,16 +27,14 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <ChakraProvider>
       <div>
         <Header />
-        <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage} />
+        <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage} /><br/>
           <main>
               <Page currentPage={currentPage}></Page>
           </main>
         <Footer />
       </div>
-    </ChakraProvider>
   )
 }
 
